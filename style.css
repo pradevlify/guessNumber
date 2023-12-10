@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+
+body {
+    background-color: gray
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 4em;
+    padding: 3em;
+    gap: 8px
+}
+
+.current-high-score {
+    color: white;
+    font-size: 2em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-game {
+    padding: .5em;
+    font-size: 1em;
+    background-color: rgb(24, 24, 92);
+    color: white;
+    box-shadow: 1px 2px 5px white;
+    border-radius: 1em;
+}
+
+.highscore i {
+    color: white;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+
+
+.hgstext {
+    margin-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 4px brown;
+    font-size: 1em;
+
+
+}
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 3vw;
+    color: rgb(82, 22, 22);
+    text-shadow: 1px 2px 4px rgb(156, 156, 27);
+}
+
+.message {
+    font-weight: bold;
+    color: rgb(50, 9, 9);
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-size: 1.3em
+}
+
+.secret-number {
+    border-radius: 2em;
+    padding: 20px;
+    color: rgb(153, 31, 15);
+    font-size: 1.4em;
+    background-color: rgb(57, 249, 249);
+    margin-top: 5px;
+}
+
+.secret-number i {
+    color: rgb(181, 31, 31);
+
+
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 9px;
+}
+
+input {
+    padding: 9px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+}
+
+.btn-check {
+    border-radius: 0 10px 10px 0;
+    background-color: rgb(156, 51, 12);
+    color: white;
+    padding: 9px;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.scores {
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 1px 2px white;
+}
+
+#current-score,
+#attempt-left {
+    color: white;
+    text-shadow: 2px 1px 2px rgb(38, 15, 15);
+
+}
+
+@media screen and (max-width:500px) {
+    h3 {
+        font-size: 40px;
+    }
+}

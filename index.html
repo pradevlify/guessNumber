@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main high-score">
+      <div class="container">
+        <div class="header">
+          <button class="new-game">New Game</button>
+          <p class="highscore">
+            <i class="fa-solid fa-trophy"></i>
+            <span class="hgstext"> Highest score:</span>
+            <span class="current-high-score"></span>
+          </p>
+        </div>
+
+        <div class="mid-section">
+          <h3>Guess My Number</h3>
+          <p class="message">guess no between 1 to 20</p>
+          <p class="secret-number"><i class="fa-solid fa-question"></i></p>
+        </div>
+
+        <div class="inputs">
+          <input
+            type="number"
+            class="input-number"
+            placeholder="enter your number"
+          />
+          <input type="button" value="check" class="btn-check" />
+        </div>
+
+        <div class="scores">
+          <p>current score : <span id="current-score">20</span></p>
+          <p>attempt-left : <span id="attempt-left">10</span></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- font awesome  -->
+    <script
+      src="https://kit.fontawesome.com/645784b0fa.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- script  -->
+    <script src="script.js"></script>
+  </body>
+</html>
